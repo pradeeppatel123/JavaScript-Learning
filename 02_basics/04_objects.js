@@ -50,10 +50,12 @@ const user = [
     }
 ]
 
-user[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// user[1].email
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("isLoggedOut"))
+// console.log(tinderUser.hasOwnProperty("isLoggedOut"))
+
+
