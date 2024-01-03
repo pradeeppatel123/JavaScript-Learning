@@ -89,8 +89,8 @@ console.log(instructor);
 
 
 // Array format API
-// [
-//     {},
-//     {},
-//     {}
-// ]
+[
+    {},
+    {},
+    {}
+]
