@@ -59,3 +59,38 @@ const user = [
 // console.log(tinderUser.hasOwnProperty("isLoggedOut"))
 
 
+// Objects destructuring and JSON API
+
+const course  = {
+    coursename : "JS in Hindi",
+    price : "999",
+    coursenstructor : "Hitesh"
+}
+
+// course.coursenstructor
+
+
+// ++++++++++++ object destructuring  +++++++++++++++++
+
+const {coursenstructor:instructor} = course
+// console.log(coursenstructor);
+console.log(instructor);
+
+// ++++++++++++++++ APIs ++++++++++++++++++++
+
+// JSON
+// OBJECT Fromat API
+// {
+//     "name":"Pradeep",
+//     "coursename":"JS in Hindi",
+//     "price":"free"
+
+// }
+
+
+// Array format API
+// [
+//     {},
+//     {},
+//     {}
+// ]
