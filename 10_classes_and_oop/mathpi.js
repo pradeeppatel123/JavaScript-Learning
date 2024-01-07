@@ -15,10 +15,10 @@ const chai = {
 console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 
 Object.defineProperty(chai, "name", {
-    // writable: false,
-    enumerable: false,
-    // configurable :false
-})
+  // writable: false,
+  enumerable: false,
+  // configurable :false
+});
 
 // console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 
