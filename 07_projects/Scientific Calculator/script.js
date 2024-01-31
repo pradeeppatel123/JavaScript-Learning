@@ -95,8 +95,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // tigonometry functions implementation
 
-    let degreeMode = true;
-    btnDeg.style.color = "#f6a29e";
+  let degreeMode = true;
+  btnDeg.style.color = "#f6a29e";
   let inverseMode = false; // Initialize the flag
   btnDeg.addEventListener("click", () => {
     degreeMode = true;
@@ -259,4 +259,3 @@ document.addEventListener("DOMContentLoaded", () => {
   btnFactorial.addEventListener("click", factorial);
   btnPi.addEventListener("click", pi);
 });
-
