@@ -257,5 +257,6 @@ document.addEventListener("DOMContentLoaded", () => {
   btnE.addEventListener("click", eularsValue);
   btnRoot.addEventListener("click", squareRoot);
   btnFactorial.addEventListener("click", factorial);
-  btnPi.addEventListener("click", pi);
+    btnPi.addEventListener("click", pi);
+
 });

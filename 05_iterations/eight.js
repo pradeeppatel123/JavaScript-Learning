@@ -7,9 +7,9 @@ const myNums = [1, 2, 3];
 //     return acc + currval
 // },0)
 
-const myTotal = myNums.reduce((acc, currval) => acc + currval, 0);
+//const myTotal = myNums.reduce((acc, currval) => acc + currval, 0);
 
-console.log(myTotal);
+//console.log(myTotal);
 
 const shoppingCart = [
   {
@@ -35,4 +35,4 @@ const shoppingCart = [
 ];
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0);
 
-console.log(priceToPay);
+// console.log(priceToPay);
